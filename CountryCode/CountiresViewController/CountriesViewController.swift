@@ -77,7 +77,7 @@ public final class CountriesViewController: UIViewController, UISearchBarDelegat
         self.view.backgroundColor = UIColor.white
     
         self.navigationItem.title = allowMultipleSelection ? "Select Countries" : "Select Country"
-
+        self.navigationController?.navigationBar.backgroundColor = .white
         cancelButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.cancel, target: self, action: #selector(CountriesViewController.cancel))
         self.navigationItem.leftBarButtonItem = cancelButton
 

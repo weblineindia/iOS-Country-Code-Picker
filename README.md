@@ -19,7 +19,7 @@ This is a iOS based CountryCode Picker which allows user to select country and e
 
 ## iOS Support
 
-Minimum iOS Target 12.0
+Minimum iOS Target 13.0
 
 
 ## Demo
